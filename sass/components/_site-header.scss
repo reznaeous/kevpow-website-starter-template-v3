@@ -5,7 +5,7 @@
   background-color: $site-header-background-color;
   padding: $site-header-padding;
 
-  &__inner {
+  &-inner {
     display: flex;
     gap: $size-4;
     align-items: $site-header-alignment;
