@@ -1,5 +1,6 @@
-import htmlPurge from "vite-plugin-html-purgecss";
+import pluginPurgeCss from "vite-plugin-purgecss-updated-v5";
+
 
 export default {
-  plugins: [htmlPurge()],
+  plugins: [pluginPurgeCss()],
 };
